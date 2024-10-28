@@ -1,6 +1,5 @@
 import google.generativeai as genai
 from pathlib import Path
-import requests
 from getpass import getpass
 import os
 import utils
