@@ -48,7 +48,7 @@ from feed_scrapper import NCEpisodeScrapper
 # Initialize the model
 model = genai.GenerativeModel("gemini-1.5-flash")
 
-asr_model = ASRGeminiModel(model, safety_settings)
+asr_model = ASRGeminiModel(model)
 
 # Scrape episodes
 eps = NCEpisodeScrapper(feed="https://jovemnerd.com.br/feed-nerdcast/")
