@@ -50,7 +50,7 @@ model = genai.GenerativeModel("gemini-1.5-flash")
 
 asr_model = ASRGeminiModel(model)
 
-# Scrape episodes
+# Scrape episodes (url)
 eps = NCEpisodeScrapper(feed="https://jovemnerd.com.br/feed-nerdcast/")
 
 # Transcribe episodes
